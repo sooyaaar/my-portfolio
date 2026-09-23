@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    height: 2200px;
+
+}
+
+.page {
+    width: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    height: 650px;
+
+    background-image: url("../images/OIP_LE_upscale_prime.jpg");
+    background-size:cover;
+    background-position:center;
+    margin-top: 0;
+
+    position: relative;
+}
+
+.year {
+    font-size: 93px;
+    text-align: center;
+    position: relative;
+    top: 60px;    
+}
+
+.name {
+    margin-left: 6%;
+    margin-top: 150px;
+
+    font-size: 50px;
+}
+
+h1 {
+    margin-left: 6%;
+    margin-top: 10px;
+
+    font-weight: lighter;
+    font-size: 90px;
+}
+
+.buttons {
+    margin-top: -2%;
+
+    display: grid;
+    grid-template-columns: 140px 220px;
+    gap: 12px 100px;
+    margin-left: 6%;
+}
+
+.buttons a {
+    height: 60px;
+    width: 220px;
+
+    white-space: nowrap;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+
+    color: black;
+    text-decoration: none;
+
+    font-size: 35px;
+}
+
+main {
+    background: linear-gradient(
+        #B9DBFF 50%,
+        #ffffff 
+    );
+
+    min-height: 10px;
+    padding-top: 10px;
+}
+
+.catalog {
+    margin-top: 90px;
+}
+
+.catalog h2 {
+    font-size: 48px;
+    margin-left: 12%;
+    font-weight: lighter;
+}
+
+.designs {
+    display: flex;
+
+    gap: 50px;
+    justify-content: center;
+}
+
+.designs img {
+    width: 200px;
+    height: auto;
+}
+
+.design p {
+    gap: 60px;
+    display: flex;
+
+    text-align: center;
+}
+
+.about-me {
+    margin-bottom: 100px;
+}
+
+.about-me h2 {
+    margin-left: 12%;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.about-box {
+    width: 78%;
+    height: 478px;
+
+    margin: 0 auto;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    background: #AACCE0;
+
+}
+
+.about-text {
+    background-color: #ffffff;
+
+    width: 90%;
+    height: 370px;
+
+    margin: 0 auto;
+
+    font-size: 20px;
+
+    padding: 10px 20px;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.my-portfolio {
+    text-align: center;
+}
+
+.my-portfolio p {
+    font-size: 60px;
+}
+
+.work-page {
+    margin: 0;
+    min-height: 100vh;
+    
+    background-image: linear-gradient(
+        #B9DBFF,
+        #ffffff
+    );
+}
+
+.w-nav-buttons {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.w-nav-buttons a {
+    font-size: 30px;
+    text-decoration: none;
+
+    color: black;
+
+    display: flex;
+    background-color: #ffffff;
+
+    width: 15%;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.overview {
+    background-color: #AACCE0;
+    
+    width: 60%;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 82px;
+}
+
+.overview-title {
+    width: 20%;
+    height: 50px;
+
+    margin-left: 4.5%;
+    margin-bottom: 15px;
+    
+    background-color: #EFEFEF;
+   
+    transform: rotate(-4deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-title p {
+    font-size: 32px;
+    
+
+    position: absolute;
+}
+
+.overview-box {
+    width: 90%;
+    height: 310px;
+
+    align-items: center;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+
+    background-color: #ffffff;
+}
+
+.overview-text {
+    width: 40%;
+}
+
+.overview-text p {
+    text-align: justify;
+    
+}
+
+.design-titles {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    white-space: nowrap;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.design-titles a {
+    font-size: 30px;
+    text-decoration: none;
+
+    display: flex;
+    background-color: #EFEFEF;
+
+    color: black;
+
+    width: 15%;
+    height: 70px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.design-1-box {
+    background-color: #AACCE0;
+    
+    width: 60%;
+    height: 400px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.d1-content {
+    width: 90%;
+    height: 330px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+
+}
+
+.d1-content p {
+    margin-top: 410px;
+    margin-left: 6%;
+    
+    font-size: 24px;
+}
+
+.design-2-box {
+    background-color: #AACCE0;
+    
+    width: 60%;
+    height: 400px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.d2-content {
+    width: 90%;
+    height: 330px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+
+}
+
+.d2-content p {
+    margin-top: 410px;
+    margin-left: 6%;
+    
+    font-size: 24px;
+}
+
+.design-3-box {
+    background-color: #AACCE0;
+    
+    width: 60%;
+    height: 400px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.d3-content {
+    width: 90%;
+    height: 330px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+
+}
+
+.d3-content p {
+    margin-top: 410px;
+    margin-left: 6%;
+    
+    font-size: 24px;
+}
